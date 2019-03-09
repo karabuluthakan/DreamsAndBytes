@@ -108,6 +108,11 @@
           <e p="ProductController.cs" t="Include" />
         </e>
         <e p="DreamsAndBytes.WebUI.csproj" t="IncludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="CustomIdentityDbContext.cs" t="Include" />
+          <e p="CustomIdentityRole.cs" t="Include" />
+          <e p="CustomIdentityUser.cs" t="Include" />
+        </e>
         <e p="ExtensionsMethods" t="Include">
           <e p="SessionExtensionMethods.cs" t="Include" />
         </e>

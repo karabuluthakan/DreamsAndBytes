@@ -63,11 +63,10 @@ namespace DreamsAndBytes.WebUI
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+            app.UseMvc(ConfigureRoutes);
             app.UseFileServer();
             app.UseSession();
-            app.UseNodeModules(env.ContentRootPath);
-            app.UseMvcWithDefaultRoute(); 
+            app.UseNodeModules(env.ContentRootPath); 
         }
 
         private void ConfigureRoutes(IRouteBuilder routeBuilder)

@@ -82,6 +82,7 @@
           <e p="CartLine.cs" t="Include" />
           <e p="Category.cs" t="Include" />
           <e p="Product.cs" t="Include" />
+          <e p="ShippingDetails.cs" t="Include" />
         </e>
         <e p="DreamsAndBytes.Entities.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -101,6 +102,8 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="AdminController.cs" t="Include" />
           <e p="CartController.cs" t="Include" />
           <e p="ProductController.cs" t="Include" />
         </e>
@@ -115,7 +118,13 @@
           <e p="CartListViewModel.cs" t="Include" />
           <e p="CartSummaryViewModel.cs" t="Include" />
           <e p="CategoryListViewModel.cs" t="Include" />
+          <e p="LoginViewModel.cs" t="Include" />
+          <e p="ProductAddViewModel.cs" t="Include" />
           <e p="ProductListViewModel.cs" t="Include" />
+          <e p="ProductUpdateViewModel.cs" t="Include" />
+          <e p="RegisterViewModel.cs" t="Include" />
+          <e p="ShippingDetailsViewModel.cs" t="Include" />
+          <e p="UserDetailsViewModel.cs" t="Include" />
         </e>
         <e p="node_modules" t="ExcludeRecursive">
           <e p="bootstrap" t="IncludeRecursive" />
@@ -134,8 +143,20 @@
         <e p="package-lock.json" t="Include" />
         <e p="package.json" t="Include" />
         <e p="Pages" t="Include">
+          <e p="_AdminLayout.cshtml" t="Include" />
           <e p="_Layout.cshtml" t="Include" />
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Login.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+          </e>
+          <e p="Admin" t="Include">
+            <e p="Add.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Update.cshtml" t="Include" />
+          </e>
           <e p="Cart" t="Include">
+            <e p="Complete.cshtml" t="Include" />
             <e p="List.cshtml" t="Include" />
           </e>
           <e p="Components" t="Include">
@@ -145,11 +166,14 @@
             <e p="CategoryList" t="Include">
               <e p="Default.cshtml" t="Include" />
             </e>
+            <e p="UserSummary" t="Include">
+              <e p="Default.cshtml" t="Include" />
+            </e>
           </e>
           <e p="Product" t="Include">
             <e p="Index.cshtml" t="Include" />
+            <e p="Login.cshtml" t="Include" />
           </e>
-          <e p="shared" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -166,6 +190,7 @@
         <e p="VievComponents" t="Include">
           <e p="CartSummaryViewComponent.cs" t="Include" />
           <e p="CategoryListViewComponent.cs" t="Include" />
+          <e p="UserSummaryViewComponent.cs" t="Include" />
         </e>
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">

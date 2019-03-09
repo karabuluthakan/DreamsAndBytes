@@ -26,19 +26,26 @@
       <_ContentIncludedByDefault Remove="Pages\Components\CategoryList\Default.cshtml" />
       <_ContentIncludedByDefault Remove="Pages\Product\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Pages\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\Components\UserSummary\Default.cshtml" />
     </ItemGroup>
 
 
     <ItemGroup>
+      <Content Include="Pages\Account\Login.cshtml" />
+      <Content Include="Pages\Admin\Add.cshtml" />
+      <Content Include="Pages\Admin\Update.cshtml" />
+      <Content Include="Pages\Cart\Complete.cshtml" />
       <Content Include="Pages\Cart\List.cshtml" />
       <Content Include="Pages\Components\CartSummary\Default.cshtml" />
       <Content Include="Pages\Components\CategoryList\Default.cshtml" />
       <Content Include="Pages\Product\Index.cshtml" />
+      <Content Include="Pages\Product\Login.cshtml" />
     </ItemGroup>
 
 
     <ItemGroup>
-      <Folder Include="Pages\Shared" />
+      <None Include="Pages\Components\UserSummary\Default.cshtml" />
+      <None Include="Pages\_AdminLayout.cshtml" />
     </ItemGroup>
 
 </Project>

@@ -29,6 +29,10 @@ namespace DreamsAndBytes.WebUI.Controllers
             };
             return View(model);
         }
- 
+        
+        public ActionResult Login()
+        {
+            return View();
+        }
     }
 }

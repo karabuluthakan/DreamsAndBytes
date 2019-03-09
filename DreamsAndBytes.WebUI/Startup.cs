@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection; 
@@ -58,6 +59,12 @@ namespace DreamsAndBytes.WebUI
             app.UseSession();
             app.UseNodeModules(env.ContentRootPath);
             app.UseMvcWithDefaultRoute(); 
+        }
+
+        private void ConfigureRoutes(IRouteBuilder routeBuilder)
+        {
+            //Home/Index yerine bunu açsın
+            routeBuilder.MapRoute("Default", "{controller=Product}/{action=Index}/{id?}");
         }
     }
 }

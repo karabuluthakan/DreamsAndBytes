@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\hk\.Rider2018.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\hk\.Rider2018.2\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\hk\.Rider2018.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\hk\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_DreamsAndBytes.976336560.00" t="ExcludeRecursive" />
     <e p="C:\Users\hk\Desktop\DreamsAndBytes" t="IncludeFlat">
@@ -51,12 +53,17 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Concrete" t="Include">
           <e p="EntityFramework" t="Include">
-            <e p="AppContext.cs" t="Include" />
+            <e p="DreamsAndBytesContext.cs" t="Include" />
             <e p="EfCategoryDal.cs" t="Include" />
             <e p="EfProductDal.cs" t="Include" />
           </e>
         </e>
         <e p="DreamsAndBytes.DataAccess.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20190309125206_InitialCreate.cs" t="Include" />
+          <e p="20190309125206_InitialCreate.Designer.cs" t="Include" />
+          <e p="DreamsAndBytesContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -81,6 +88,9 @@
           </e>
         </e>
       </e>
+      <e p="DreamsAndBytes.MVCWebUI" t="IncludeRecursive">
+        <e p="DreamsAndBytes.MVCWebUI.csproj" t="IncludeRecursive" />
+      </e>
       <e p="DreamsAndBytes.sln" t="IncludeFlat" />
       <e p="DreamsAndBytes.WebUI" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
@@ -90,11 +100,18 @@
           <e p="ProductController.cs" t="Include" />
         </e>
         <e p="DreamsAndBytes.WebUI.csproj" t="IncludeRecursive" />
+        <e p="Middlewares" t="Include">
+          <e p="ApplicationBuilderExtensions.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="ProductListViewModel.cs" t="Include" />
         </e>
         <e p="node_modules" t="ExcludeRecursive">
           <e p="bootstrap" t="IncludeRecursive" />
+          <e p="jquery" t="IncludeRecursive" />
+          <e p="jquery-validation" t="IncludeRecursive" />
+          <e p="jquery-validation-unobtrusive" t="IncludeRecursive" />
+          <e p="popper.js" t="IncludeRecursive" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

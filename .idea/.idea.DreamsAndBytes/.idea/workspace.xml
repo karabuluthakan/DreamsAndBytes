@@ -2,30 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd1c9ed7-bfc9-45c9-ae27-43022dde8d9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DreamsAndBytes/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DreamsAndBytes/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DreamsAndBytes/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DreamsAndBytes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DreamsAndBytes/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.Business/Abstract/ICategoryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.Business/Abstract/IProductService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.Business/Concrete/CategoryManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.Business/Concrete/ProductManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/IEntityRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.Core/Entities/IEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Abstract/ICategoryDal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Abstract/IProductDal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/AppContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfProductDal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.Entities/Concrete/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.Entities/Concrete/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/Controllers/ProductController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/Models/ProductListViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/Product/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Controllers/ProductController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Pages/Product/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/Middlewares/ApplicationBuilderExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DreamsAndBytes/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DreamsAndBytes/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DreamsAndBytes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DreamsAndBytes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.Business/bin/Debug/netcoreapp2.2/DreamsAndBytes.Business.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.Business/bin/Debug/netcoreapp2.2/DreamsAndBytes.Business.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.Business/bin/Debug/netcoreapp2.2/Microsoft.EntityFrameworkCore.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.Business/obj/Debug/netcoreapp2.2/DreamsAndBytes.Business.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.Business/obj/Debug/netcoreapp2.2/DreamsAndBytes.Business.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.Business/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.Business/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/AppContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/DreamsAndBytesContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfProductDal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfProductDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/DreamsAndBytes.DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/DreamsAndBytes.DataAccess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/bin/Debug/netcoreapp2.2/DreamsAndBytes.DataAccess.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/bin/Debug/netcoreapp2.2/DreamsAndBytes.DataAccess.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/bin/Debug/netcoreapp2.2/Microsoft.EntityFrameworkCore.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/obj/Debug/netcoreapp2.2/DreamsAndBytes.DataAccess.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/obj/Debug/netcoreapp2.2/DreamsAndBytes.DataAccess.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/obj/DreamsAndBytes.DataAccess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/obj/DreamsAndBytes.DataAccess.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.DataAccess/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.Entities/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/DreamsAndBytes.WebUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/DreamsAndBytes.WebUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/bin/Debug/netcoreapp2.2/DreamsAndBytes.WebUI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/bin/Debug/netcoreapp2.2/DreamsAndBytes.WebUI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/Debug/netcoreapp2.2/Razor/Pages/Product/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/Debug/netcoreapp2.2/Razor/Pages/Product/Index.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/Debug/netcoreapp2.2/Razor/Pages/_Layout.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/Debug/netcoreapp2.2/Razor/Pages/_Layout.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/DreamsAndBytes.WebUI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/DreamsAndBytes.WebUI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.WebUI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.WebUI/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DreamsAndBytes.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DreamsAndBytes.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,87 +44,71 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1197185474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="29" />
-          <entry key="cshtml" value="3" />
-          <entry key="json" value="1" />
+          <entry key="cs" value="57" />
+          <entry key="cshtml" value="10" />
+          <entry key="csproj" value="4" />
+          <entry key="json" value="6" />
+          <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="29" />
-          <entry key="JSON" value="1" />
-          <entry key="Razor" value="3" />
+          <entry key="C#" value="57" />
+          <entry key="Csproj" value="4" />
+          <entry key="JSON" value="6" />
+          <entry key="Razor" value="10" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1408" />
-          <entry key="cshtml" value="310" />
-          <entry key="json" value="46" />
+          <entry key="cs" value="2351" />
+          <entry key="cshtml" value="453" />
+          <entry key="csproj" value="39" />
+          <entry key="json" value="301" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1408" />
-          <entry key="JSON" value="46" />
-          <entry key="Razor" value="310" />
+          <entry key="C#" value="2351" />
+          <entry key="Csproj" value="39" />
+          <entry key="JSON" value="301" />
+          <entry key="Razor" value="453" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Controllers/ProductController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding>
-                <marker date="1552014506289" expanded="false" signature="6:106" ph="..." />
-                <marker date="1552014506289" expanded="true" signature="150:665" ph="{...}" />
-                <marker date="1552014506289" expanded="true" signature="198:663" ph="{...}" />
-                <marker date="1552014506289" expanded="true" signature="319:385" ph="{...}" />
-                <marker date="1552014506289" expanded="true" signature="421:657" ph="{...}" />
-                <marker date="1552014506289" expanded="true" signature="563:614" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Models/ProductListViewModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <marker date="1552014520507" expanded="true" signature="6:73" ph="..." />
-                <marker date="1552014520507" expanded="true" signature="152:216" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/Product/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,54 +127,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/_Layout.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="207">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="53" />
               <folding>
-                <marker date="1552113620203" expanded="true" signature="16:182" ph="&lt;html.../&gt;" />
-                <marker date="1552113620203" expanded="true" signature="23:128" ph="&lt;head.../&gt;" />
-                <marker date="1552113620203" expanded="true" signature="129:174" ph="&lt;body.../&gt;" />
-                <marker date="1552113620203" expanded="true" signature="136:166" ph="&lt;div.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DreamsAndBytes.Business/Concrete/ProductManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-              <folding>
-                <marker date="1552014017564" expanded="false" signature="6:155" ph="..." />
-                <marker date="1552014017564" expanded="true" signature="249:1005" ph="{...}" />
-                <marker date="1552014017564" expanded="true" signature="351:409" ph="{...}" />
-                <marker date="1552014017564" expanded="true" signature="447:508" ph="{...}" />
-                <marker date="1552014017564" expanded="true" signature="568:661" ph="{...}" />
-                <marker date="1552014017564" expanded="true" signature="703:761" ph="{...}" />
-                <marker date="1552014017564" expanded="true" signature="806:866" ph="{...}" />
-                <marker date="1552014017564" expanded="true" signature="909:999" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="57" column="1" selection-start-line="53" selection-start-column="33" selection-end-line="57" selection-end-column="1" />
-              <folding>
-                <marker date="1552114625157" expanded="false" signature="6:543" ph="..." />
-                <marker date="1552114625157" expanded="true" signature="575:1993" ph="{...}" />
-                <marker date="1552114625157" expanded="true" signature="602:1991" ph="{...}" />
-                <marker date="1552114625157" expanded="true" signature="661:724" ph="{...}" />
-                <marker date="1552114625157" expanded="true" signature="947:1559" ph="{...}" />
-                <marker date="1552114625157" expanded="true" signature="1179:1456" ph="{...}" />
-                <marker date="1552114625157" expanded="true" signature="1747:1985" ph="{...}" />
-                <marker date="1552114625157" expanded="true" signature="1794:1871" ph="{...}" />
+                <marker date="1552136218994" expanded="true" signature="16:1968" ph="&lt;html.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="23:353" ph="&lt;head.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="354:1960" ph="&lt;body.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="361:1921" ph="&lt;div.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="386:1914" ph="&lt;nav.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="506:776" ph="&lt;button.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="786:1903" ph="&lt;div.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="865:1887" ph="&lt;ul.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="913:1060" ph="&lt;li.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="1077:1178" ph="&lt;li.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="1195:1868" ph="&lt;li.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="1246:1449" ph="&lt;a.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="1470:1846" ph="&lt;div.../&gt;" />
+                <marker date="1552136218994" expanded="true" signature="1922:1952" ph="&lt;div.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -200,21 +167,28 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Models/ProductListViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/IEntityRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Middlewares/ApplicationBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/Product/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Entities/Concrete/Category.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Core/Entities/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Entities/Concrete/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Business/Concrete/CategoryManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Business/Concrete/ProductManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Migrations/20190309125206_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Business/Abstract/ICategoryService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Entities/Concrete/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Business/Abstract/IProductService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/AppContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/DreamsAndBytesContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfProductDal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Abstract/ICategoryDal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Abstract/IProductDal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Pages/Product/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -232,23 +206,31 @@
         <option value="$PROJECT_DIR$/DreamsAndBytes.Entities/Concrete/Product.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.Entities/Concrete/Category.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/IEntityRepository.cs" />
-        <option value="$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Abstract/ICategoryDal.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Abstract/IProductDal.cs" />
-        <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfProductDal.cs" />
-        <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/AppContext.cs" />
-        <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/AppContext.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.Business/Abstract/ICategoryService.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.Business/Abstract/IProductService.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.Business/Concrete/CategoryManager.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.Business/Concrete/ProductManager.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/Controllers/ProductController.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/Models/ProductListViewModel.cs" />
-        <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/Product/Index.cshtml" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/Middlewares/ApplicationBuilderExtensions.cs" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/package.json" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Startup.cs" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Views/Product/Index.cshtml" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Pages/Product/Index.cshtml" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/AppContext.cs" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/appsettings.json" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfProductDal.cs" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/DreamsAndBytes.WebUI.csproj" />
         <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/Startup.cs" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/DreamsAndBytesContext.cs" />
+        <option value="$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/_Layout.cshtml" />
       </list>
     </option>
   </component>
@@ -291,24 +273,7 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DreamsAndBytes" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DreamsAndBytes.Business" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DreamsAndBytes" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DreamsAndBytes.Business" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Concrete" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DreamsAndBytes" type="24d0babc:SolutionExplorerModelNode" />
               <item name="DreamsAndBytes.WebUI" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="DreamsAndBytes" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="DreamsAndBytes.WebUI" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -331,10 +296,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql&#10;sqlserver" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -407,12 +378,15 @@
       <option name="presentableId" value="Default" />
       <updated>1552008843649</updated>
       <workItem from="1552008846938" duration="6070000" />
-      <workItem from="1552113245806" duration="1463000" />
+      <workItem from="1552113245806" duration="2733000" />
+      <workItem from="1552117067919" duration="3608000" />
+      <workItem from="1552125662089" duration="1726000" />
+      <workItem from="1552128767886" duration="6914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7533000" />
+    <option name="totallyTimeSpent" value="21051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,11 +401,9 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Build" weight="0.32929516" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
@@ -439,18 +411,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32929516" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32929516" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.2973568" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="REST Client" order="14" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32929516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
@@ -501,20 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/IEntityRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Abstract/IProductDal.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -529,28 +489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfProductDal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/AppContext.cs" />
-    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfCategoryDal.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/AppContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DreamsAndBytes.Business/Abstract/ICategoryService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -576,10 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1552014520507" expanded="true" signature="6:73" ph="..." />
-            <marker date="1552014520507" expanded="true" signature="152:216" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,28 +522,213 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Controllers/ProductController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Middlewares/ApplicationBuilderExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52f6c895-cf49-4720-a70c-f95734671533/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/IEntityRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <marker date="1552014017564" expanded="false" signature="6:155" ph="..." />
-            <marker date="1552014017564" expanded="true" signature="249:1005" ph="{...}" />
-            <marker date="1552014017564" expanded="true" signature="351:409" ph="{...}" />
-            <marker date="1552014017564" expanded="true" signature="447:508" ph="{...}" />
-            <marker date="1552014017564" expanded="true" signature="568:661" ph="{...}" />
-            <marker date="1552014017564" expanded="true" signature="703:761" ph="{...}" />
-            <marker date="1552014017564" expanded="true" signature="806:866" ph="{...}" />
-            <marker date="1552014017564" expanded="true" signature="909:999" ph="{...}" />
+            <marker date="1552010587439" expanded="false" signature="6:114" ph="..." />
+            <marker date="1552010587439" expanded="true" signature="156:447" ph="{...}" />
+            <marker date="1552010587439" expanded="true" signature="229:445" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/_Layout.cshtml">
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="184">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/DreamsAndBytes.MVCWebUI.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
           <folding>
-            <marker date="1552113620203" expanded="true" signature="16:182" ph="&lt;html.../&gt;" />
-            <marker date="1552113620203" expanded="true" signature="23:128" ph="&lt;head.../&gt;" />
-            <marker date="1552113620203" expanded="true" signature="129:174" ph="&lt;body.../&gt;" />
-            <marker date="1552113620203" expanded="true" signature="136:166" ph="&lt;div.../&gt;" />
+            <marker date="1552130202524" expanded="false" signature="6:429" ph="..." />
+            <marker date="1552130202524" expanded="true" signature="464:1340" ph="{...}" />
+            <marker date="1552130202524" expanded="true" signature="491:1338" ph="{...}" />
+            <marker date="1552130202524" expanded="true" signature="506:721" ph="/* This method gets called by the runtime. Use this method to add services to the container. ... */" />
+            <marker date="1552130202524" expanded="true" signature="788:967" ph="{...}" />
+            <marker date="1552130202524" expanded="true" signature="1155:1332" ph="{...}" />
+            <marker date="1552130202524" expanded="true" signature="1202:1279" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Views/Product/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Controllers/ProductController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <marker date="1552132117991" expanded="false" signature="6:71" ph="..." />
+            <marker date="1552132117991" expanded="true" signature="118:524" ph="{...}" />
+            <marker date="1552132117991" expanded="true" signature="166:522" ph="{...}" />
+            <marker date="1552132117991" expanded="true" signature="287:353" ph="{...}" />
+            <marker date="1552132117991" expanded="true" signature="389:516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.MVCWebUI/Pages/Product/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <marker date="1552133257202" expanded="false" signature="6:170" ph="..." />
+            <marker date="1552133257202" expanded="true" signature="228:1817" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="390:1815" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="463:631" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="522:621" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="716:974" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="775:964" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="1015:1248" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="1074:1238" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="1292:1529" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="1351:1519" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="1573:1809" ph="{...}" />
+            <marker date="1552133257202" expanded="true" signature="1632:1799" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfCategoryDal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <marker date="1552133055532" expanded="false" signature="6:135" ph="..." />
+            <marker date="1552133055532" expanded="true" signature="197:321" ph="{...}" />
+            <marker date="1552133055532" expanded="true" signature="298:319" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/EfProductDal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1552133039836" expanded="false" signature="6:135" ph="..." />
+            <marker date="1552133039836" expanded="true" signature="197:318" ph="{...}" />
+            <marker date="1552133039836" expanded="true" signature="295:316" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/DreamsAndBytes.WebUI.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+          <folding>
+            <marker date="1552135360965" expanded="false" signature="6:620" ph="..." />
+            <marker date="1552135360965" expanded="true" signature="653:2290" ph="{...}" />
+            <marker date="1552135360965" expanded="true" signature="680:2288" ph="{...}" />
+            <marker date="1552135360965" expanded="true" signature="739:802" ph="{...}" />
+            <marker date="1552135360965" expanded="true" signature="1025:1830" ph="{...}" />
+            <marker date="1552135360965" expanded="true" signature="1450:1727" ph="{...}" />
+            <marker date="1552135360965" expanded="true" signature="2018:2282" ph="{...}" />
+            <marker date="1552135360965" expanded="true" signature="2065:2142" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Migrations/20190309125206_InitialCreate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <folding>
+            <marker date="1552135926346" expanded="false" signature="6:93" ph="..." />
+            <marker date="1552135926346" expanded="true" signature="141:1883" ph="{...}" />
+            <marker date="1552135926346" expanded="true" signature="194:1881" ph="{...}" />
+            <marker date="1552135926346" expanded="true" signature="270:1629" ph="{...}" />
+            <marker date="1552135926346" expanded="true" signature="413:695" ph="{...}" />
+            <marker date="1552135926346" expanded="true" signature="734:844" ph="{...}" />
+            <marker date="1552135926346" expanded="true" signature="978:1471" ph="{...}" />
+            <marker date="1552135926346" expanded="true" signature="1510:1617" ph="{...}" />
+            <marker date="1552135926346" expanded="true" signature="1702:1875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.DataAccess/Concrete/EntityFramework/DreamsAndBytesContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <marker date="1552135893532" expanded="false" signature="6:76" ph="..." />
+            <marker date="1552135893532" expanded="true" signature="138:534" ph="{...}" />
+            <marker date="1552135893532" expanded="true" signature="189:532" ph="{...}" />
+            <marker date="1552135893532" expanded="true" signature="280:415" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -629,41 +749,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Controllers/ProductController.cs">
+    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Pages/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="207">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="53" />
           <folding>
-            <marker date="1552014506289" expanded="false" signature="6:106" ph="..." />
-            <marker date="1552014506289" expanded="true" signature="150:665" ph="{...}" />
-            <marker date="1552014506289" expanded="true" signature="198:663" ph="{...}" />
-            <marker date="1552014506289" expanded="true" signature="319:385" ph="{...}" />
-            <marker date="1552014506289" expanded="true" signature="421:657" ph="{...}" />
-            <marker date="1552014506289" expanded="true" signature="563:614" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DreamsAndBytes.WebUI/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="57" column="1" selection-start-line="53" selection-start-column="33" selection-end-line="57" selection-end-column="1" />
-          <folding>
-            <marker date="1552114625157" expanded="false" signature="6:543" ph="..." />
-            <marker date="1552114625157" expanded="true" signature="575:1993" ph="{...}" />
-            <marker date="1552114625157" expanded="true" signature="602:1991" ph="{...}" />
-            <marker date="1552114625157" expanded="true" signature="661:724" ph="{...}" />
-            <marker date="1552114625157" expanded="true" signature="947:1559" ph="{...}" />
-            <marker date="1552114625157" expanded="true" signature="1179:1456" ph="{...}" />
-            <marker date="1552114625157" expanded="true" signature="1747:1985" ph="{...}" />
-            <marker date="1552114625157" expanded="true" signature="1794:1871" ph="{...}" />
+            <marker date="1552136218994" expanded="true" signature="16:1968" ph="&lt;html.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="23:353" ph="&lt;head.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="354:1960" ph="&lt;body.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="361:1921" ph="&lt;div.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="386:1914" ph="&lt;nav.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="506:776" ph="&lt;button.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="786:1903" ph="&lt;div.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="865:1887" ph="&lt;ul.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="913:1060" ph="&lt;li.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="1077:1178" ph="&lt;li.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="1195:1868" ph="&lt;li.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="1246:1449" ph="&lt;a.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="1470:1846" ph="&lt;div.../&gt;" />
+            <marker date="1552136218994" expanded="true" signature="1922:1952" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>

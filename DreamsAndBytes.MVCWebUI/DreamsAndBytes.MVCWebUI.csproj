@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <AspNetCoreHostingModel>inprocess</AspNetCoreHostingModel>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="wwwroot\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0-preview2-35157" PrivateAssets="All" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DreamsAndBytes.Business\DreamsAndBytes.Business.csproj" />
+      <ProjectReference Include="..\DreamsAndBytes.Core\DreamsAndBytes.Core.csproj" />
+      <ProjectReference Include="..\DreamsAndBytes.Entities\DreamsAndBytes.Entities.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Product\Index.cshtml" />
+    </ItemGroup>
+
+</Project>

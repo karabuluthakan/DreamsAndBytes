@@ -3,10 +3,8 @@ C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreap
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.pdb
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreapp2.2\DreamsAndBytes.Core.dll
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreapp2.2\DreamsAndBytes.Entities.dll
-C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreapp2.2\DreamsAndBytes.Core.pdb
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreapp2.2\DreamsAndBytes.Entities.pdb
-C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\obj\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.csprojAssemblyReference.cache
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\obj\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\obj\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.AssemblyInfoInputs.cache
@@ -14,3 +12,5 @@ C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\obj\Debug\netcoreap
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\obj\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.csproj.CopyComplete
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\obj\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.dll
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\obj\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.pdb
+C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.runtimeconfig.json
+C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.DataAccess\bin\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.runtimeconfig.dev.json

@@ -4,7 +4,7 @@ using DreamsAndBytes.Entities.Concrete;
 
 namespace DreamsAndBytes.DataAccess.Concrete.EntityFramework
 {
-    public class EfCategoryDal:EfEntityRepositoryBase<Category,AppContext>,ICategoryDal
+    public class EfCategoryDal:EfEntityRepositoryBase<Category,DreamsAndBytesContext>,ICategoryDal
     {
         
     }

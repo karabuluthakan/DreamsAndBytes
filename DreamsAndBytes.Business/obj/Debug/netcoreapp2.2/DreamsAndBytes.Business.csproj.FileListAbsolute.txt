@@ -4,11 +4,9 @@ C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\bin\Debug\netcoreapp2
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\bin\Debug\netcoreapp2.2\DreamsAndBytes.Core.dll
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\bin\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.dll
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\bin\Debug\netcoreapp2.2\DreamsAndBytes.Entities.dll
-C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\bin\Debug\netcoreapp2.2\DreamsAndBytes.Core.pdb
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\bin\Debug\netcoreapp2.2\DreamsAndBytes.DataAccess.pdb
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\bin\Debug\netcoreapp2.2\DreamsAndBytes.Entities.pdb
-C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\obj\Debug\netcoreapp2.2\DreamsAndBytes.Business.csprojAssemblyReference.cache
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\obj\Debug\netcoreapp2.2\DreamsAndBytes.Business.csproj.CoreCompileInputs.cache
 C:\Users\hk\Desktop\DreamsAndBytes\DreamsAndBytes.Business\obj\Debug\netcoreapp2.2\DreamsAndBytes.Business.AssemblyInfoInputs.cache

@@ -7,6 +7,7 @@ using DreamsAndBytes.Business.Concrete;
 using DreamsAndBytes.DataAccess.Abstract;
 using DreamsAndBytes.DataAccess.Concrete.EntityFramework;
 using DreamsAndBytes.WebUI.Middlewares;
+using DreamsAndBytes.WebUI.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -34,14 +35,13 @@ namespace DreamsAndBytes.WebUI
                 x=>x.MigrationsAssembly("DreamsAndBytes.WebUI")));
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<IProductDal, EfProductDal>();
-            services.Configure<CookiePolicyOptions>(options =>
-            {
-                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = SameSiteMode.None;
-            });
-
-
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICategoryDal, EfCategoryDal>();
+            services.AddSingleton<ICartSessionService, CartSessionManager>();
+            services.AddSingleton<ICartService, CartManager>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSession();
+            services.AddDistributedMemoryCache();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -53,7 +53,9 @@ namespace DreamsAndBytes.WebUI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseMvc();
             app.UseFileServer();
+            app.UseSession();
             app.UseNodeModules(env.ContentRootPath);
             app.UseMvcWithDefaultRoute(); 
         }

@@ -20,7 +20,7 @@ namespace DreamsAndBytes.Business.Concrete
 
         public List<Product> GetByCategory(int categoryId)
         {
-            return _productDal.GetList(p => p.CategoryId == categoryId);
+            return _productDal.GetList(p => p.CategoryId == categoryId || categoryId==0);
         }
 
         public void Add(Product product)
@@ -36,6 +36,11 @@ namespace DreamsAndBytes.Business.Concrete
         public void Delete(int productId)
         {
             _productDal.Delete(new Product(){ProductId = productId});
+        }
+
+        public Product GetById(int productId)
+        {
+           return  _productDal.Get(p => p.ProductId == productId);
         }
     }
 }

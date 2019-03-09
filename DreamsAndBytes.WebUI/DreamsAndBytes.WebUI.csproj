@@ -21,4 +21,24 @@
       <ProjectReference Include="..\DreamsAndBytes.Entities\DreamsAndBytes.Entities.csproj" />
     </ItemGroup>
 
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\Components\CategoryList\Default.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Product\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\_Layout.cshtml" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Content Include="Pages\Cart\List.cshtml" />
+      <Content Include="Pages\Components\CartSummary\Default.cshtml" />
+      <Content Include="Pages\Components\CategoryList\Default.cshtml" />
+      <Content Include="Pages\Product\Index.cshtml" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Folder Include="Pages\Shared" />
+    </ItemGroup>
+
 </Project>

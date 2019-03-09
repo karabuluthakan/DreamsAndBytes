@@ -8,11 +8,13 @@
     <e p="C:\Users\hk\Desktop\DreamsAndBytes" t="IncludeFlat">
       <e p="DreamsAndBytes.Business" t="IncludeRecursive">
         <e p="Abstract" t="Include">
+          <e p="ICartService.cs" t="Include" />
           <e p="ICategoryService.cs" t="Include" />
           <e p="IProductService.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Concrete" t="Include">
+          <e p="CartManager.cs" t="Include" />
           <e p="CategoryManager.cs" t="Include" />
           <e p="ProductManager.cs" t="Include" />
         </e>
@@ -76,6 +78,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="ComplexTypes" t="Include" />
         <e p="Concrete" t="Include">
+          <e p="Cart.cs" t="Include" />
+          <e p="CartLine.cs" t="Include" />
           <e p="Category.cs" t="Include" />
           <e p="Product.cs" t="Include" />
         </e>
@@ -97,13 +101,20 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="CartController.cs" t="Include" />
           <e p="ProductController.cs" t="Include" />
         </e>
         <e p="DreamsAndBytes.WebUI.csproj" t="IncludeRecursive" />
+        <e p="ExtensionsMethods" t="Include">
+          <e p="SessionExtensionMethods.cs" t="Include" />
+        </e>
         <e p="Middlewares" t="Include">
           <e p="ApplicationBuilderExtensions.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="CartListViewModel.cs" t="Include" />
+          <e p="CartSummaryViewModel.cs" t="Include" />
+          <e p="CategoryListViewModel.cs" t="Include" />
           <e p="ProductListViewModel.cs" t="Include" />
         </e>
         <e p="node_modules" t="ExcludeRecursive">
@@ -124,15 +135,38 @@
         <e p="package.json" t="Include" />
         <e p="Pages" t="Include">
           <e p="_Layout.cshtml" t="Include" />
+          <e p="Cart" t="Include">
+            <e p="List.cshtml" t="Include" />
+          </e>
+          <e p="Components" t="Include">
+            <e p="CartSummary" t="Include">
+              <e p="Default.cshtml" t="Include" />
+            </e>
+            <e p="CategoryList" t="Include">
+              <e p="Default.cshtml" t="Include" />
+            </e>
+          </e>
           <e p="Product" t="Include">
             <e p="Index.cshtml" t="Include" />
           </e>
+          <e p="shared" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Services" t="Include">
+          <e p="CartSessionManager.cs" t="Include" />
+          <e p="ICartSessionService.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
+        <e p="TagHelpers" t="Include">
+          <e p="PagingTagHelper.cs" t="Include" />
+        </e>
+        <e p="VievComponents" t="Include">
+          <e p="CartSummaryViewComponent.cs" t="Include" />
+          <e p="CategoryListViewComponent.cs" t="Include" />
+        </e>
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="site.css" t="Include" />

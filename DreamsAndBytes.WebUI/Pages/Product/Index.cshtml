@@ -1,23 +1,8 @@
-@model DreamsAndBytes.WebUI.Models.ProductListViewModel
- @{
-     Layout = "_Layout";
- }
-<div>
-    Hakan
-    <hr/>
-    <table>
-        <tr>
-            <th>Product Name</th>
-            <th>Unit Price</th>
-            <th>Units In Stock</th>
-        </tr>
-        @foreach (var product in Model.Products)
-        {
-            <tr>
-                <td>@product.ProductName</td>
-                <td>@product.UnitPrice</td>
-                <td>@product.UnitInStock</td>
-            </tr>
-        }
-    </table>
-</div> 
+@model DreamsAndBytes.WebUI.Models.ProductListViewModel"
+
+@{
+    ViewBag.Title = "title";
+    Layout = "Shared/_Layout";
+}
+
+<h2>title</h2>

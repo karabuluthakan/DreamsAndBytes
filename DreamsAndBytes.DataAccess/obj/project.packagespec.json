@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\hk\\Desktop\\DreamsAndBytes\\DreamsAndBytes.DataAccess\\DreamsAndBytes.DataAccess.csproj",
+    "projectName": "DreamsAndBytes.DataAccess",
+    "projectPath": "C:\\Users\\hk\\Desktop\\DreamsAndBytes\\DreamsAndBytes.DataAccess\\DreamsAndBytes.DataAccess.csproj",
+    "outputPath": "C:\\Users\\hk\\Desktop\\DreamsAndBytes\\DreamsAndBytes.DataAccess\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\Users\\hk\\Desktop\\DreamsAndBytes\\DreamsAndBytes.Core\\DreamsAndBytes.Core.csproj": {
+            "projectPath": "C:\\Users\\hk\\Desktop\\DreamsAndBytes\\DreamsAndBytes.Core\\DreamsAndBytes.Core.csproj"
+          },
+          "C:\\Users\\hk\\Desktop\\DreamsAndBytes\\DreamsAndBytes.Entities\\DreamsAndBytes.Entities.csproj": {
+            "projectPath": "C:\\Users\\hk\\Desktop\\DreamsAndBytes\\DreamsAndBytes.Entities\\DreamsAndBytes.Entities.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0-preview2-26905-02, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

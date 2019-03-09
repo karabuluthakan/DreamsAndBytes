@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\hk\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\hk\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_DreamsAndBytes.976336560.00" t="ExcludeRecursive" />
+    <e p="C:\Users\hk\Desktop\DreamsAndBytes" t="IncludeFlat">
+      <e p="DreamsAndBytes.Business" t="IncludeRecursive">
+        <e p="Abstract" t="Include">
+          <e p="ICategoryService.cs" t="Include" />
+          <e p="IProductService.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Concrete" t="Include">
+          <e p="CategoryManager.cs" t="Include" />
+          <e p="ProductManager.cs" t="Include" />
+        </e>
+        <e p="DreamsAndBytes.Business.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DreamsAndBytes.Business.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DreamsAndBytes.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataAccess" t="Include">
+          <e p="EntityFramework" t="Include">
+            <e p="EfEntityRepositoryBase.cs" t="Include" />
+          </e>
+          <e p="IEntityRepository.cs" t="Include" />
+        </e>
+        <e p="DreamsAndBytes.Core.csproj" t="IncludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="IEntity.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DreamsAndBytes.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DreamsAndBytes.DataAccess" t="IncludeRecursive">
+        <e p="Abstract" t="Include">
+          <e p="ICategoryDal.cs" t="Include" />
+          <e p="IProductDal.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Concrete" t="Include">
+          <e p="EntityFramework" t="Include">
+            <e p="AppContext.cs" t="Include" />
+            <e p="EfCategoryDal.cs" t="Include" />
+            <e p="EfProductDal.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DreamsAndBytes.DataAccess.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DreamsAndBytes.DataAccess.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DreamsAndBytes.Entities" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ComplexTypes" t="Include" />
+        <e p="Concrete" t="Include">
+          <e p="Category.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+        </e>
+        <e p="DreamsAndBytes.Entities.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DreamsAndBytes.Entities.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DreamsAndBytes.sln" t="IncludeFlat" />
+      <e p="DreamsAndBytes.WebUI" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ProductController.cs" t="Include" />
+        </e>
+        <e p="DreamsAndBytes.WebUI.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="ProductListViewModel.cs" t="Include" />
+        </e>
+        <e p="node_modules" t="ExcludeRecursive">
+          <e p="bootstrap" t="IncludeRecursive" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="DreamsAndBytes.WebUI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="Pages" t="Include">
+          <e p="_Layout.cshtml" t="Include" />
+          <e p="Product" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+            <e p="site.min.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include">
+            <e p="banner1.svg" t="Include" />
+            <e p="banner2.svg" t="Include" />
+            <e p="banner3.svg" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+            <e p="site.min.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p=".bower.json" t="Include" />
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
